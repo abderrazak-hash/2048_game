@@ -572,7 +572,7 @@ class GameController {
   }
 
   winGame() {
-    if (game.any((line) => line.any((val) => val == 64)) && !reachGoal) {
+    if (game.any((line) => line.any((val) => val == 2520)) && !reachGoal) {
       reachGoal = true;
       return true;
     }
